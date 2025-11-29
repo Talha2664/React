@@ -1,0 +1,14 @@
+.card{
+  background-color:aqua;
+  color: rgb(253, 0, 42);
+  border-radius: 10px;
+  height: 100px;
+  width: 400px;
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+}
+#parent{
+  display: flex;
+  justify-content: center;
+}
