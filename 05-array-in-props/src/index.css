@@ -1,0 +1,16 @@
+h1{
+  background-color: aqua;
+  text-align: center;
+  width: 400px;
+}
+body{
+  height: 100vh;
+  border: 2px solid black;
+
+}
+#parent{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+}
