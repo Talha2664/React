@@ -1,15 +1,31 @@
-import React from 'react'
+// In Fetch we must manually do response.json()
+
+import { useState } from "react"
 
 const FetchAsync$wait = () => {
-    const getData = async ()=>{
-        const response = await fetch("https://jsonplaceholder.typicode.com/posts")
-        const data = await response.json()
-        console.log(data);
-        
-    }
+
+  // state to store post
+  const [Post, setPost] = useState(null)
+
+  const getData = async () => {
+    // fetch data
+    const response = await fetch("https://jsonplaceholder.typicode.com/posts")
+    
+    // convert to json
+    const data = await response.json()
+
+    console.log(data[0]) // show first post in console
+
+    setPost(data[0]) // save first post in state
+  }
+
   return (
     <div>
-        <button onClick={getData}>Get Data 2!</button>
+      {/* button to get data */}
+      <button onClick={getData}>Get Async&wait Data!</button>
+
+      {/* show post body if Post is not null */}
+      <h1>{Post?.body}</h1>
     </div>
   )
 }

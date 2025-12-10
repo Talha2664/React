@@ -23,7 +23,7 @@ const FetchThen = () => {
   return (
     <div>
       {/* Button triggers the getData function */}
-      <button onClick={getData}>Get Data!</button>
+      <button onClick={getData}>Get .then Data!</button>
     </div>
   );
 };
