@@ -1,0 +1,10 @@
+.Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.NavChild{
+    display: flex;
+    width:200px;
+    justify-content: space-between;
+}
