@@ -16,6 +16,9 @@ import {BrowserRouter} from 'react-router-dom'
 ```
 Syntax:
 ```
+Import Routes and Route from react-router-dom
+import { Routes, Route } from "react-router-dom"
+
 Routes => Saare routes container
 Route => Single page define karta hai
 <Routes>
