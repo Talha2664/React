@@ -8,7 +8,7 @@ import Womens from './Pages/Womens'
 import PageNotFound from './Pages/PageNotFound'
 import Department from './Pages/Department'
 import DepartmentDetail from './Pages/DepartmentDetail'
-
+import Navbar2 from './Components/Navbar2'
 // Import layout components
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
@@ -23,6 +23,8 @@ const App = () => {
 
       {/* Navbar stays visible on all pages */}
       <Navbar />
+      {/* Navbar2 stays visible on all pages */}
+      <Navbar2 />
 
       {/* Main content area where pages change */}
       <main className='content'>
