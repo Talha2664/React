@@ -31,3 +31,20 @@ const UseEffect = () => {
 }
 
 export default UseEffect
+
+/*
+✅ Sirf page load par
+useEffect(() => {
+  console.log("sirf ek baar");
+}, []);
+
+✅ State change par
+useEffect(() => {
+  console.log("count badla");
+}, [count]);
+
+❌ Har render par
+useEffect(() => {
+  console.log("har render");
+});
+*/

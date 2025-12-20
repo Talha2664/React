@@ -23,3 +23,10 @@ const ObjectMethod2 = () => {
 
 export default ObjectMethod2
 
+// Method 1:
+
+// "Pehle copy banao, phir manually change karo"
+
+// Method 2:
+
+// "React se previous state lo, jo chahiye wahi update karo"
