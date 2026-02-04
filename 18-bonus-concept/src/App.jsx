@@ -1,3 +1,6 @@
+// “Lifting state up = state parent mein rakho, 
+//taake multiple children use read aur update kar saken.” ✅
+
 import { useState } from 'react'
 import LiftingStateUp from './Components/Lifting-State-Up'
 
